@@ -1,1 +1,43 @@
-Javascript Alarn Clock
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Amazing Alarm Clock</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<img src="/Files/img.jpg" alt="clock">
+		<div id="clk">12:00:00 PM</div>
+		<div class="ccc">
+			<div>
+				<select class="same">
+					<option value="Hour" selected hidden>Hour</option>
+				</select>
+			</div>
+			<div>
+				<select class="same">
+					<option value="Min" selected hidden>Min</option>
+				</select>
+			</div>
+			<div>
+				<select class="ampm">
+					<option value="AM/PM" selected hidden>AM/PM</option>
+					<option>AM</option>
+					<option>PM</option>
+				</select>
+			</div>
+		</div>
+		<button>Set Alarm</button>
+	</div>
+</body>
+<script src="main.js"></script>
+
+</html>
